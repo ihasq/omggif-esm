@@ -811,5 +811,8 @@ function GifReaderLZWOutputIndexStream(code_stream, p, output, output_length) {
   return output;
 }
 
-// CommonJS.
-try { exports.GifWriter = GifWriter; exports.GifReader = GifReader } catch(e) {}
+// ESM.
+export { GifWriter, GifReader };
+
+// Not CommonJS.
+// try { exports.GifWriter = GifWriter; exports.GifReader = GifReader } catch(e) {}

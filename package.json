@@ -1,12 +1,12 @@
 {
-  "name": "omggif",
-  "version": "1.0.10",
-  "author": "Dean McNamee <dean@gmail.com>",
+  "name": "omggif-esm",
+  "version": "0.0.1",
+  "author": "ihasq",
   "license": "MIT",
   "keywords": ["gif", "gif89a", "gif87a", "plask"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/deanm/omggif"
+    "url": "https://github.com/ihasq/omggif-esm"
   },
   "main": "omggif.js"
 }
